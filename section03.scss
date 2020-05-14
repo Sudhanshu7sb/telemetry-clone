@@ -1,0 +1,124 @@
+$main-color : #6eb792;
+
+
+
+
+
+
+
+.sec-3{
+    background-color: $main-color;
+    .numbers-section{
+    display : flex;
+    justify-content: center;
+    padding : 30px 0;
+
+        .art-1{
+            align-items: center;
+            text-align: center;
+            width:20%;
+            h1{
+                
+                font-size: 4rem;
+                font-weight: 100;
+                color:whitesmoke;
+                margin :10px 10px 0 10px;
+                
+            }
+            h2{
+                font-size: 1.5rem;
+                color : whitesmoke;
+                margin : 0 10px 10px 10px;
+                
+            }
+            p{
+                font-size: 1rem;
+                color:whitesmoke;
+                margin : 30px ;
+                line-height: 2;
+            }
+        }
+
+        .art-2{
+            align-items: center;
+            text-align: center;
+            width : 20%;
+            border-left : 1px solid whitesmoke;
+            h1{
+                
+                font-size: 4rem;
+                font-weight: 100;
+                color:whitesmoke;
+                margin :10px 10px 0 10px;
+                
+            }
+            h2{
+                font-size: 1.5rem;
+                color : whitesmoke;
+                margin : 0 10px 10px 10px;
+                
+            }
+            p{
+                font-size: 1rem;
+                color:whitesmoke;
+                margin : 30px ;
+                line-height: 2;
+            }
+        }
+
+        .art-3{
+            align-items: center;
+            text-align: center;
+            width : 20%;
+            border-left : 1px solid whitesmoke;
+            h1{
+                
+                font-size: 4rem;
+                font-weight: 100;
+                color:whitesmoke;
+                margin :10px 10px 0 10px;
+                
+            }
+            h2{
+                font-size: 1.5rem;
+                color : whitesmoke;
+                margin : 0 10px 10px 10px;
+                
+            }
+            p{
+                font-size: 1rem;
+                color:whitesmoke;
+                margin : 30px ;
+                line-height: 2;
+            }
+        }
+
+        .art-4{
+            align-items: center;
+            text-align: center;
+            width : 20%;
+            border-left : 1px solid whitesmoke;
+            h1{
+                
+                font-size: 4rem;
+                font-weight: 100;
+                color:whitesmoke;
+                margin :10px 10px 0 10px;
+                
+            }
+            h2{
+                font-size: 1.5rem;
+                color : whitesmoke;
+                margin : 0 10px 10px 10px;
+                
+            }
+            p{
+                font-size: 1rem;
+                color:whitesmoke;
+                margin : 30px ;
+                line-height: 2;
+            }
+        }
+    }
+    
+}

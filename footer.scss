@@ -1,0 +1,95 @@
+footer{
+    background-color: #6eb792;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .contact{
+        h2{
+            font-size: 2rem;
+            font-weight : 100;
+            letter-spacing: 2px;
+            color:whitesmoke;
+            margin : 10px;
+        }
+        ul{
+            list-style: none;
+            li{
+                color:whitesmoke;
+                margin : 10px 0;
+                   i{ color: white;
+                    margin-right: 5px;
+                }
+            }
+        }
+        div {
+            display: flex;
+            justify-content: space-evenly;
+            i{
+                color:white;
+                margin :30px 10px;
+
+
+                
+            }
+        }
+    }
+    .form{
+        h2{
+            font-size: 2rem;
+            font-weight: 100;
+            letter-spacing: 2px;
+            color: whitesmoke;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            .wrap{
+                display: flex;
+                justify-content: space-between;
+                margin:  20px ;
+                input{
+                    padding:10px;
+                    border: 1px solid white;
+                    opacity:0.8;
+                    border-radius: 2px;
+                    font-size: 1.5rem;
+                    width: 40%;
+                    background:#6eb792;
+                    color:white;
+
+                }
+            }
+            textarea{
+                margin:20px ;
+                background: #6eb792;
+                opacity:0.8;
+            }
+
+            textarea::placeholder{
+                color: white;
+            }
+            a{
+                padding: 10px;
+                border: 1px solid white;
+                color: white;
+                text-decoration: none;
+                margin :20px;
+                opacity:0.8;
+                
+            }
+
+        }
+    }
+    
+}
+.copyright {
+    border-top:1px solid white;
+    p{
+    text-align: center;
+    color:whitesmoke;
+    opacity:0.8;
+    }
+}
+

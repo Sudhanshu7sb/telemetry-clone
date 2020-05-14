@@ -1,0 +1,21 @@
+.sec-1{
+    padding:10px;
+    background-image: url("./pic01.jpg");
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:200px;
+    div{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        p{
+            border-bottom: 1px solid whitesmoke;
+            border-radius: 5px;
+            padding: 10px;
+        }
+            }
+}

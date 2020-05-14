@@ -1,0 +1,101 @@
+.img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img-container .left-img {
+  background-image: url("./pic03.jpg");
+  background-size: cover;
+  width: 50%;
+  background-size: cover;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img-container .left-img i {
+  color: whitesmoke;
+  background-color: #6eb792;
+  margin-top: 3rem;
+}
+
+.img-container .left-img p {
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: whitesmoke;
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+.img-container .left-img h4 {
+  color: #6eb792;
+}
+
+.img-container .left-img h5 {
+  color: white;
+  margin-bottom: 4rem;
+}
+
+.img-container .right-img {
+  background-image: url("./pic04.jpg");
+  width: 50%;
+  background-size: cover;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img-container .right-img i {
+  color: whitesmoke;
+  background-color: #6eb792;
+  margin-top: 3rem;
+}
+
+.img-container .right-img p {
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: whitesmoke;
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+.img-container .right-img h4 {
+  color: #6eb792;
+}
+
+.img-container .right-img h5 {
+  color: white;
+  margin-bottom: 4rem;
+}
+/*# sourceMappingURL=section05.css.map */
