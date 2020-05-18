@@ -1,15 +1,9 @@
-$main-color : #6eb792;
 
 
-
-
-
-
-
-.sec-3{
-    background-color: $main-color;
+.number{
+    background-color: $primary;
     .numbers-section{
-    display : flex;
+    
     justify-content: center;
     padding : 30px 0;
 
@@ -121,4 +115,30 @@ $main-color : #6eb792;
         }
     }
     
+}
+
+@media screen and (max-width:768px){
+    .number{
+       width:100%;
+    }
+    .numbers-section{
+        width:100%;
+        flex-wrap: wrap;
+        .art-1{
+            width:48% !important;
+            
+        }
+        .art-2{
+            width:48% !important;
+        }
+        .art-3{
+            width:48% !important;
+            border-top:1px solid white;
+            border-left:none !important;
+        }
+        .art-4{
+            width:48% !important;
+            border-top:1px solid white;
+        }
+    }
 }

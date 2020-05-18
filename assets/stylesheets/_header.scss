@@ -1,0 +1,66 @@
+.header{
+    
+    
+    position:fixed;
+    width: 100%;
+    .nav{
+        justify-content: space-between;
+        align-items: center;
+        
+        .logo{
+            width :25%;
+            margin : 10px;
+            justify-content: space-around;
+            align-items: center;
+            a{
+                
+                font-size: 2rem;
+                border-right:1px solid white;
+                margin: 10px;
+                padding : 0 25px;
+                &:hover{
+                    text-decoration: underline;
+                    text-decoration-color: $primary;
+                }
+            }
+        }
+    }
+   
+            h6 {
+                color: whitesmoke;
+                margin : 10px;
+            }
+        }
+
+        .list{
+            width: 40%;
+            justify-content: space-evenly;
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color : whitesmoke;
+                    img{
+                        width:20px;
+                        height:15px;
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+
+  
+       .items:hover{
+           text-decoration: underline;
+           text-decoration-color: $primary;
+           
+       }
+
+.header{
+    .header-background{
+        background-color: $primary;
+        
+    }
+}
+    
+    

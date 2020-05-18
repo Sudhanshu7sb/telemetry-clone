@@ -1,34 +1,46 @@
 .img-container{
-    display:flex;
+    
     justify-content: start;
     align-items: center;
     .left-img{
-        background-image: url("./pic03.jpg");
+        background-image: url("../media/pic03.jpg");
         background-size: cover;
         width:50%;
-        background-size: cover;
         padding:20px;
-        display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         
+    }
+    .quotes{
+        margin-top:40px;
+        width: 50px;
+        height:50px;
+        border-radius: 50%;
+        justify-content: center;
+        background-color: $primary;
+        align-items: center;
+
         i{
             color:whitesmoke;
-            background-color: #6eb792;
-            margin-top :3rem;
             
         }
+    }
+    
+    .img{
+        filter:blur(0.1px);
+        -webkit-filter: blur(0.1px);
         p{
             font-size: 2rem;
             font-weight: 100;
             letter-spacing: 2px;
             color:whitesmoke;
             margin : 20px 0;
-            padding-left: 20px;
+            padding: 35px;
         }
         h4{
-            color:#6eb792;
+            color:$primary;
+            margin:10px 0;
 
         }
         h5{
@@ -36,37 +48,26 @@
             margin-bottom:4rem;
         }
     }
+
+
     .right-img{
-        background-image: url("./pic04.jpg");
+        background-image: url("../media/pic04.jpg");
         width:50%;
         background-size: cover;
         padding:20px;
-        display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        
-        i{
-            color:whitesmoke;
-            background-color: #6eb792;
-            margin-top :3rem;
-            
-        }
-        p{
-            font-size: 2rem;
-            font-weight: 100;
-            letter-spacing: 2px;
-            color:whitesmoke;
-            margin : 20px 0;
-            padding-left: 20px;
-        }
-        h4{
-            color:#6eb792;
-
-        }
-        h5{
-            color :white;
-            margin-bottom:4rem;
-        }
     }
+}
+
+
+@media screen and (max-width:768px){
+   .portfolio{
+        width:100%;
+        .img-container{
+            flex-direction: column;
+            width:max-content;
+        }
+   }
 }

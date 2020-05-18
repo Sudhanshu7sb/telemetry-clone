@@ -4,107 +4,132 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
+  <!--Font Awesome-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-  <link rel="stylesheet" href="styles.css">
-  <title>Document</title>
+  <!--Styles-->
+  <link rel="stylesheet" href="./assets/stylesheets/styles.css">
+  <title>Telemetry</title>
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="logo">
-        <a href="#">TELEMETRY</a>
-        <span>By Pixelarity</span>
+  <!--HEADER STARTS-->
+  <header class="header">
+    <nav class="flex nav">
+      <!--logo on left top-->
+      <div class="logo flex">
+        <a href="#">Telemetry</a>
+        <h6>By Pixelarity</h6>
       </div>
-    
-      <ul>
-        <li><a href = "#">Home</a></li>
-        <li><a href = "#"><img src = "arrow-down.png">Dropdown</a></li>
-        <li><a href = "#">Generic</a></li>
-        <li><a href = "#">Elements</a></li>
+    <!--menu-->
+      <ul class="list flex">
+        <li>
+          <a href="#" class="items">Home</a>
+        </li>
+        <li>
+          <a href="#" class="items"><img src = "assets/media/arrow-down.png" alt = "dropdown-arrow">Dropdown</a>
+        </li>
+        <li>
+          <a href="#" class="items">Generic</a>
+        </li>
+        <li><a href="#" class="items">Elements</a></li>
       </ul>
     </nav>
   </header>
 <!--END OF HEADER-->
 
-<!--SECTION 1 STARTS-->
-<section class = ".sec-1">
+<!-- Hero Section STARTS-->
+<section class="hero flex">
   
-  <div>
-    <i class="fas fa-laptop"></i>
+  
+    <div class="icon flex">
+      <i class="fas fa-laptop fa-3x" ></i>
+    </div>
+    
     <p>Ipsum dolor sit amet feugiat et veroeros adipiscing</p>
     <a href="#">GET STARTED</a>
-  </div>
+  
 </section>
-<!--SECTION 1 ENDS-->
-<!--SECTION 2 STARTS-->
-<section class = "sec-2">
-  <div class="picture">
-    <img src="pic02.jpg" alt="">
+<!-- Hero Section ENDS-->
+
+<!-- Feature Section STARTS-->
+<section class="feature flex">
+  <div class="left-picture">
+    <img src="assets/media/pic02.jpg" alt="snowy scenary">
   </div>
   <div class="right">
 
-  <div>
-    <p> Adipiscing ornare risus morbi est est blandi magna vel euismod tempus</p>
-  </div>
-  <div>
-    
-    <h1><i class="fa fa-gem"></i>Sed veroeros</h1>
-    <p>Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing</p>
-  </div>
-  <div>
-    <i class="far fa-gem">
-    <h1>Sed veroeros</h1></i>
-    <p>Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing</p>
-  </div>
-  <div>
-    <i class="far fa-gem"></i>
-    <h1>Sed veroeros</h1>
-    <p>Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing</p>
-  </div>
-  <div>
-    <i class="far fa-gem"></i>
-    <h1>Sed veroeros</h1>
-    <p>Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing</p>
-  </div>
+    <div class="right-header">
+      <h2> Adipiscing ornare risus morbi est est blandi magna vel euismod tempus</h2>
+    </div>
+  <div class="flex wrap">
+    <div class="feature-info flex">
+      <i class="far fa-gem"></i>
+      <div>
+        <h3>Sed veroeros</h3>
+        <p>Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing</p>
+      </div>
+    </div>
+    <div class="feature-info flex">
+      <i class="far fa-clone"></i>
+     <div>
+      <h3>Magna etiam</h3>
+      <p>Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing</p>
+     </div>
+    </div>
+    <div class="feature-info flex">
+      <i class="far fa-file"></i>
+      <div>
+        <h3>Nulla consequat</h3>
+        <p>Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing</p>
+      </div>
+    </div>
+    <div class="feature-info flex">
+      <i class="far fa-envelope"></i>
+      <div>
+        <h3>Euismod morbi</h3>
+        <p>Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing</p>
+      </div>
+    </div>
+</div>
 
   
   </div>
 </section>
 
-<!--SECTION 3STARTS-->
-<section class = "sec-3">
-  <div class="numbers-section">
+<!--Number Section STARTS-->
+<section class="number">
+  <div class="numbers-section flex">
     <div class="art-1">
       <h1>128</h1>
       <h2>Sed magna</h2>
       <p>Lorem ipsum dolor nulla feugiat adipiscing.</p>
     </div>
     <div class="art-2">
-      <h1>128</h1>
-      <h2>Sed magna</h2>
+      <h1>640</h1>
+      <h2>Etiam dolor</h2>
       <p>Lorem ipsum dolor nulla feugiat adipiscing.</p>
     </div>
     <div class="art-3">
-      <h1>128</h1>
-      <h2>Sed magna</h2>
+      <h1>256</h1>
+      <h2>Nullam amet</h2>
       <p>Lorem ipsum dolor nulla feugiat adipiscing.</p>
     </div>
     <div class="art-4">
-      <h1>128</h1>
-      <h2>Sed magna</h2>
+      <h1>768</h1>
+      <h2>Sit euismod</h2>
       <p>Lorem ipsum dolor nulla feugiat adipiscing.</p>
     </div>
   </div>
 </section>
-<!--SECTION 4-->
-<section class = "sec-4">
+
+
+<!--pages-->
+<section class="pages">
   <div class="button">
-    <a href="">Aliquam</a>
-    <a href="">Conseqaut</a>
-    <a href="">Feugiat</a>
+    <a href="#" >Aliquam</a>
+    <a href="#">Conseqaut</a>
+    <a href="#">Feugiat</a>
   </div>
-  <div class = "section-4">
+  <div class="section-4">
     <div class="left-side">
       
       <h3>Lorem ipsum dolor sit magna feugiat etiam sed dolor</h3>
@@ -112,64 +137,148 @@
       <a href="#">LEARN MORE</a>
     </div>
     <div class="right-side">
-      <img src="pic05.jpg" alt="">
+      <img src="assets/media/pic05.jpg" alt="">
     </div>
   </div>
 </section>
-<!--SECTION 5-->
-<section class = "sec-5">
-  <div class="img-container">
-    <div class="left-img">
-      
-      <i class="fas fa-quote-left fa-3x"></i>
+
+
+
+<!--Portfolio Section-->
+
+
+
+<section class="portfolio">
+  <div class="img-container flex">
+    <div class="left-img img flex">
+      <div class="quotes flex">
+        <i class="fas fa-quote-left"></i>
+      </div>
       <p>"Sed ultrices consequat dolor nulla fringilla dignissim"</p>
       <h4>Jane Doe</h4>
       <h5>Ipsum dolor nullam</h5>
     </div>
-    <div class = "right-img">
-      <i class="fas fa-quote-left fa-3x"></i>
+    <div class="right-img  img flex">
+      <div class="quotes flex">
+        <i class="fas fa-quote-left"></i>
+      </div>
       <p>"Nam velit et lorem porta quis at pulvinar tellus nibh"</p>
       <h4>Jane Doe</h4>
       <h5>Ipsum dolor nullam</h5>
     </div>
   </div>
 </section>
-<footer>
-  <article class = "contact">
-      <h2>Contact</h2>
-      <ul>
-        <li><i class="fas fa-home"></i>1234 Fictional Street #5432<br>
-          Nashville, TN 00000-0000</li>
-        <li><i class="fas fa-phone"></i>(000) 000-0000</li>
-        <li><i class="fas fa-envelope"></i>info@untitled.tld</li>
 
-      </ul>
-      <div class="links">
-        <i class="fab fa-linkedin-in"></i>
-        <i class="fab fa-linkedin-in"></i>
-        <i class="fab fa-linkedin-in"></i>
-        <i class="fab fa-linkedin-in"></i>
+
+
+<!--Progress section-->
+
+
+<section class="progress">
+  <div class="container flex">
+    <article class="summary">
+      <h3>Feugiat lorem ipsum dolor velit amet dolor dignissim pharetra</h3>
+      <img src="/assets/media/pic06.jpg" alt="path along mountain view">
+      <p class="brief-note">Maecenas id feugiat nunc. Integer gravida augue libero, quis pellentesque amet pharetra a. Ut sagittis ipsum nec velit porttitor, sed convallis ligula pellentesque. Mauris et dignissim sem lacinia lorem ipsum dolor.</p>
+      <a href="#" class="learn-more">LEARN MORE</a>
+    </article>
+    <div class="progress-bars">
+      <div class="progress-value">
+        <h5>Ipsum amet</h5>
+        <progress value="60" max="100" class="custom"></progress>
+        <p>60%</p>
       </div>
+      <div class="progress-value">
+        <h5>Ipsum amet</h5>
+        <progress value="90" max="100" class="custom"></progress>
+        <p>90%</p>
+      </div>
+      <div class="progress-value">
+        <h5>Ipsum amet</h5>
+        <progress value="75" max="100" class="custom"></progress>
+        <p>75%</p>
+      </div>
+      <div class="progress-value">
+        <h5>Ipsum amet</h5>
+        <progress value="45" max="100" class="custom"></progress>
+        <p>45%</p>
+      </div>
+      <div class="progress-value">
+        <h5>Ipsum amet</h5>
+        <progress value="55" max="100" class="custom"></progress>
+        <p>55%</p>
+      </div>
+    </div>
+  </div>
 
-  </article>
-  <article class = "form">
-    <h2>Email Us</h2>
-    <form action="#">
-      <div class="wrap">
-        <input type="text"  placeholder="Name">
-        <input type="text" placeholder="Email">
-     </div>
-     <textarea name="Message" id="" cols="72" rows="10" placeholder = "Message"></textarea>
-     <a href="#">SEND MESSAGE</a>
+</section>
 
-    </form>
-    
+<!--Footer Section-->
+<footer class="flex">
+  <div class="contact-form flex">
+    <article class="contact">
+        <h2>Contact</h2>
+        <ul class="contact-info">
+          <li>
+            <i class="fas fa-home"></i>
+            <a href="#">
+            <address>Fictional Street #5432<br>
+              Nashville, TN 00000-0000</address>
+            </a>
+          </li>
+          <li>
+            <i class="fas fa-phone"></i>
+            <a href="#">(000) 000-0000</a>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <a href ="#">info@untitled.tld</a>
+          </li>
+          <li class="social-links flex">
+            <div>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div>
+              <a href="#">
+              <i class="fab fa-instagram"></i></a>
+            </div>
+            <div>
+              <a href="#">
+              <i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div>
+              <a href="#">
+              <i class="fab fa-github"></i></a>
+            </div>
+          </li>
 
-  </article>
+        </ul>
+      
+
+    </article>
+    <article class="form">
+      <h2>Email Us</h2>
+      <form action="#">
+        <div class="wrap">
+          <input type="name"  placeholder="Name">
+          <input type="mail" placeholder="Email">
+      </div>
+      <textarea name="Message" id="" cols="72" rows="10" placeholder = "Message"></textarea>
+      <a href="#" class="send-message">SEND MESSAGE</a>
+      </form>
+      
+
+    </article>
+  </div>
+  <div class="copyright">
+    <p>© Untitled. All rights reserved.</p>
+  </div>
   
 </footer>
-<div class="copyright">
-  <p>© Untitled. All rights reserved.</p>
-</div>
+
+<script src="./assets/js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,33 @@
+.feature{
+    justify-content: space-evenly;
+    margin:40px ;
+    .left-picture{
+        width:35%;
+    }
+   
+    
+    .right{
+        padding-left: 3em;
+        h2{
+            font-size:1.8rem;
+            margin-bottom: 1.5em;
+        }
+        h3{
+            font-size: 1.2rem;
+            font-weight: 600;
+            color:$primary;
+        }
+         .wrap{
+             flex-wrap: wrap;
+             .feature-info{
+                 width: 50%;
+                 margin-bottom: 1.5em;
+             }
+             .far{
+                 margin-right: 1.5em;
+                 color: $primary;
+             }
+         }
+
+    }
+}
